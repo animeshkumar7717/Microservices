@@ -27,7 +27,7 @@ This Microservices Blog App allows users to create posts and add comments. It us
 ### ✅ Prerequisites
 
 - Node.js
-- Docker (optional, for containerized deployment)
+- npm
 
 ### 🔧 Installation
 
@@ -36,3 +36,10 @@ This Microservices Blog App allows users to create posts and add comments. It us
 ```bash
 git clone https://github.com/animeshkumar7717/Microservices.git
 cd Microservices
+cd micro-client && npm install
+cd micro-comments && npm install
+cd micro-event-bus && npm install
+cd micro-moderation && npm install
+cd micro-posts && npm install
+cd micro-query && npm install
+
